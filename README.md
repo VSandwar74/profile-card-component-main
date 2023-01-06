@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My GitHub](https://github.com/VSandwar74/nft-preview-card-component-main)
-- Live Site URL: [My Live Site!](https://graceful-gumdrop-92bbdd.netlify.app/)
+- Solution URL: [My GitHub](https://github.com/VSandwar74/product-preview-card-component-main)
+- Live Site URL: [My Live Site!](https://luxury-bavarois-8e4c78.netlify.app/)
 
 ## My process
 
@@ -53,27 +53,9 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
-```js
-function myFunction() {
-  let elements = document.getElementsByName("toggle");
-  for (let i = 0; i < 3; i++) {
-    let element1 = elements[i]
-      if (element1.style.display === "block") {
-        element1.style.display = "none";
-      } else if (element1.style.display === "none") {
-        element1.style.display = "block";
-      } else if (element1.className === "menu-open") {
-        element1.style.display = "none";
-      } else {
-        element1.style.display = "block";
-      }
-  }
-}
+```css
+body {margin: 0; height: 100%; overflow: hidden}
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
@@ -83,7 +65,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Navigation Bar Guide](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar) - Navigation bars seem like a major daunting task, but with this website I was able to add at least a low level implementation.
+- [Shapes in HTML](https://www.w3schools.com/howto/howto_css_circles.asp) - Didn't use this in my final product, but neat resource on learning how to make shapes with span.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
